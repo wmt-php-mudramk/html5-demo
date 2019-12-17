@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        
+        <style>
+        .S1{
+            position:absolute;
+            left: 25%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            
+        }
+        td, th{
+            padding: 15px;
+            letter-spacing: 1px;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="S1">
+    <table style ="margin: 5%; height: 512px; width: 707px; position: relative;">
+        <tr>
+            <th colspan="3">Invoice#123456789</th>
+            <th>14 January 2025</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Pay to:</b><br>
+                Acme Billing Co.<br>
+                123 Main St.<br>
+                Cittyvilly NA 12345<br>
+            </td>
+            <td colspan="2">
+                <b>Customer:</b><br>
+                John Smith <br>
+                321 Willow Way<br>
+                Southeast Northwestershire,MA%$321<br>     
+            </td>
+        </tr>
+        <tr>
+            <th>Name/Description</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <th colspan="3"><b>Subtotal<b></th>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <th colspan="2"><b>Tax</th>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <th colspan="3">Grand Total</th>
+            <td>$118.80</td>
+        </tr>
+    </table>
+    </div>
+    </body>
+</html>
